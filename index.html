@@ -539,7 +539,7 @@
 							<i class="fa fa-github"></i>
 						</div>
 
-						<h3 id = "cup" class="stat-count">
+						<h3 id = "git" class="stat-count">
 							9
 						</h3>
 
@@ -725,6 +725,19 @@ case 21:
 case 22:
 case 23:greet.innerHTML = "Good evening, World!";
 }
+		
+		
+		
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+        document.getElementById("git").innerHTML = myObj.public_repos;
+    }
+};
+xmlhttp.open("GET", "https://api.github.com/users/mpadel78", true);
+xmlhttp.send();
+
 
 
 
