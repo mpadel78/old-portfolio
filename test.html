@@ -1,6 +1,20 @@
 <html>
+	
+	<script>
+	var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+        document.getElementById("test").innerHTML = myObj.title;
+    }
+};
+xmlhttp.open("GET", "test.json", true);
+xmlhttp.send();
+   	
+	</script>
 	<body>
 		<h1 style= "align:center; margin-top: 245px; margin-left: 295px; color: blue">
       This is the page where I will be testing new skills of web. Please come back later. <h1>
+			<p id ="test">checlking here!</p>
       </body>
       </html>
