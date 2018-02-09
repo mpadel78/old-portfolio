@@ -28,12 +28,12 @@ var n = d.getDay();
  var selectedInput= document.getElementById("input");
  var tipeko= selectedInput[selectedInput.selectedIndex].value;
 var result = document.getElementById("result");
-var myObj;
+
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-         myObj = JSON.parse(this.responseText);
-       
+       var  myObj = JSON.parse(this.responseText);
+       result.innerHTML = myObj[n].tipeko;
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
