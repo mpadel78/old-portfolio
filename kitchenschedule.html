@@ -23,7 +23,8 @@
 </div>
 
 <script>
-  function convert(){
+ 
+    var question = document.getElementById("question");
     var d = new Date();
 var n = d.getDay();
  var selectedInput= document.getElementById("input");
@@ -34,13 +35,13 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        var  myObj = JSON.parse(this.responseText);
-       result.innerHTML = myObj[n].tipeko;
+       question.innerHTML = myObj[n].tipeko;
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
 xmlhttp.send();
 
-  }
+  
 
  
 
