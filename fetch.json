@@ -1,0 +1,45 @@
+{
+    "1":{
+	"Manish":"chilling",
+	"Prashant":"dishwashing",
+	"Alish":"cooking",
+	"Bishwa":"chilling"
+	},
+	"2":{
+	"Manish":"chilling",
+	"Prashant":"cooking",
+	"Alish":"dishwashing",
+	"Bishwa":"chilling"
+	},
+	"3":{
+	"Manish":"dishwashing",
+	"Prashant":"chilling",
+	"Alish":"chilling",
+	"Bishwa":"cooking"
+	},
+	"4":{
+	"Manish":"chilling",
+	"Prashant":"dishwashing",
+	"Alish":"cooking",
+	"Bishwa":"chilling"
+	},
+	"5":{
+	"Manish":"cooking",
+	"Prashant":"chilling",
+	"Alish":"chilling",
+	"Bishwa":"dishwashing"
+	},
+	"6":{
+	"Manish":"chilling",
+	"Prashant":"cooking",
+	"Alish":"dishwashing",
+	"Bishwa":"chilling"
+	},
+	"7":{
+	"Manish":"dishwashing",
+	"Prashant":"chilling",
+	"Alish":"chilling",
+	"Bishwa":"dishwashing"
+	}
+	
+}
