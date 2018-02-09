@@ -28,7 +28,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
-        document.getElementById("question").innerHTML = myObj.1;
+        document.getElementById("question").innerHTML = myObj;
     }
 };
 xmlhttp.open("GET", "https://api.github.com/users/mpadel78", true);
@@ -38,10 +38,10 @@ xmlhttp.send();
 var n = d.getDay();
  var selectedInput= document.getElementById("input");
  var tipeko= selectedInput[selectedInput.selectedIndex].value;
-var result = document.getElementById("result");*/
+var result = document.getElementById("result");
 function convert(){
   result.innerHTML = ;
-}
+}*/
 </script>
 
 
