@@ -35,7 +35,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        var  myObj = JSON.parse(this.responseText);
-       question.innerHTML = myObj[n].tipeko;
+       question.innerHTML = myObj[n].+tipeko;
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
