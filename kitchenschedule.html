@@ -23,7 +23,8 @@
 </div>
 
 <script>
-  var d = new Date();
+  function convert(){
+    var d = new Date();
 var n = d.getDay();
  var selectedInput= document.getElementById("input");
  var tipeko= selectedInput[selectedInput.selectedIndex].value;
@@ -39,9 +40,9 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", "fetch.json", true);
 xmlhttp.send();
 
+  }
 
-
-  result.innerHTML = myObj[n].tipeko ;
+ 
 
 </script>
 
