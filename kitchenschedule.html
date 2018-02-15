@@ -17,18 +17,18 @@ var n = d.getDay();
  var selectedInput= document.getElementById("input");
  var tipeko= selectedInput[selectedInput.selectedIndex].value;
 var result = document.getElementById("result");
-  question.innerHTML = tipeko+" "+fetch(5, "Alish");
+  question.innerHTML = tipeko+" "+fetch();
   
    
    
    
    
-   function fetch(x, y){
+   function fetch(){
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        var  myObj = JSON.parse(this.responseText);
-       return myObj;
+       return myObj[5][Alish];
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
