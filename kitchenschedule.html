@@ -23,25 +23,32 @@
 </div>
 
 <script>
- 
+ function convert(){
     var question = document.getElementById("question");
     var d = new Date();
 var n = d.getDay();
  var selectedInput= document.getElementById("input");
  var tipeko= selectedInput[selectedInput.selectedIndex].value;
 var result = document.getElementById("result");
-
+  result.innerHTML = tipeko+" "fetch(n,tipeko);
+  
+ }
+  
+  
+  
+  
+function fetch(x, y){
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        var  myObj = JSON.parse(this.responseText);
-       question.innerHTML = myObj[n].+tipeko;
+       return myObj[x][y];
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
 xmlhttp.send();
   
-  
+}
   //add function on top of it!
   //make the tipeko variable work
   //and then you are done!
