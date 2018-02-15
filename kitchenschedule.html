@@ -32,12 +32,11 @@ var n = d.getDay();
 var result = document.getElementById("result");
   result.innerHTML = tipeko+" "+fetch(n,tipeko);
   
- }
-  
-  
-  
-  
-function fetch(x, y){
+   
+   
+   
+   
+   function fetch(x, y){
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -49,6 +48,12 @@ xmlhttp.open("GET", "fetch.json", true);
 xmlhttp.send();
   
 }
+ }
+  
+  
+  
+  
+
   //add function on top of it!
   //make the tipeko variable work
   //and then you are done!
