@@ -30,7 +30,6 @@
 
  <script>
 
-    var question = document.getElementById("question");
     var d = new Date();
 var n = d.getDay();
  var selectedInput= document.getElementById("input");
@@ -47,7 +46,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        var  myObj = JSON.parse(this.responseText);
-       question.innerHTML= myObj.Manish.Sunday;
+   document.getElementById("result").innerHTML= myObj.Manish.Sunday;
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
