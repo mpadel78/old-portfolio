@@ -32,10 +32,13 @@
 
     var d = new Date();
 var n = d.getDay();
+   var question = document.getElementById("question");
  var selectedInput= document.getElementById("input");
  var tipeko= selectedInput[selectedInput.selectedIndex].value;
 var result = document.getElementById("result");
-  
+ var myObj = [];
+   
+   
   
    
    
@@ -45,8 +48,8 @@ var result = document.getElementById("result");
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-       var  myObj = JSON.parse(this.responseText);
-   document.getElementById("question").innerHTML= myObj.tipeko.Sunday;
+      myObj = JSON.parse(this.responseText);
+   
     }
 };
 xmlhttp.open("GET", "fetch.json", true);
@@ -54,7 +57,7 @@ xmlhttp.send();
   
 
  
-  
+  question.innerHTML = myObj.Manish.Sunday;
   
   
   
