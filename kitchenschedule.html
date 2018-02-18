@@ -9,7 +9,26 @@
   
   
   
-  <script>
+ 
+</head>
+<body>
+
+<div class="container">
+  <div id = "line"class="jumbotron">
+          
+    <p id = "question">Hey, what's is your name? </p> 
+      <select id="input" onChange = "convert()">
+        <option value="Manish">Manish</option>
+  <option value="Prashant">Prashant</option>
+       <option value="Alish">Alish</option>
+     <option value="Bishwa">Bishwa </option>
+   <p id ="result"></p>
+  </div>
+      
+</div>
+
+
+ <script>
  function convert(){
     var question = document.getElementById("question");
     var d = new Date();
@@ -41,34 +60,13 @@ xmlhttp.send();
   
   
 
-  //add function on top of it!
-  //make the tipeko variable work
-  //and then you are done!
+
 
   
 
  
 
 </script>
-</head>
-<body>
-
-<div class="container">
-  <div id = "line"class="jumbotron">
-          
-    <p id = "question">Hey, what's is your name? </p> 
-      <select id="input" onChange = "convert()">
-        <option value="Manish">Manish</option>
-  <option value="Prashant">Prashant</option>
-       <option value="Alish">Alish</option>
-     <option value="Bishwa">Bishwa </option>
-   <p id ="result"></p>
-  </div>
-      
-</div>
-
-
-
 
 
 </body>
