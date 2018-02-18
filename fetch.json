@@ -1,5 +1,5 @@
 {
-"Manish"{
+"Manish":{
 "Sunday":"chilling",
 "Monday":"chilling",
 "Tuesday":"dishwashing",
@@ -8,7 +8,7 @@
 "Friday":"chilling",
 "Saturday":"dishwashing"
 },
-"Prashant"{
+"Prashant":{
 "Sunday":"dishwashing",
 "Monday":"cooking",
 "Tuesday":"chilling",
@@ -17,7 +17,7 @@
 "Friday":"cooking",
 "Saturday":"chilling"
 },
-"Alish"{
+"Alish":{
 "Sunday":"cooking",
 "Monday":"dishwashing",
 "Tuesday":"chilling",
@@ -26,7 +26,7 @@
 "Friday":"dishwashing",
 "Saturday":"chilling"
 },
-"Bishwa"{
+"Bishwa":{
 "Sunday":"chilling",
 "Monday":"chilling",
 "Tuesday":"cooking",
