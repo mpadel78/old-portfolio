@@ -1,45 +1,40 @@
 {
-    "1":{
-	"Manish":"chilling",
-	"Prashant":"dishwashing",
-	"Alish":"cooking",
-	"Bishwa":"chilling"
-    },
-	"2":{
-	"Manish":"chilling",
-	"Prashant":"cooking",
-	"Alish":"dishwashing",
-	"Bishwa":"chilling"
-	},
-	"3":{
-	"Manish":"dishwashing",
-	"Prashant":"chilling",
-	"Alish":"chilling",
-	"Bishwa":"cooking"
-	},
-	"4":{
-	"Manish":"chilling",
-	"Prashant":"dishwashing",
-	"Alish":"cooking",
-	"Bishwa":"chilling"
-	},
-	"5":{
-	"Manish":"cooking",
-	"Prashant":"chilling",
-	"Alish":"chilling",
-	"Bishwa":"dishwashing"
-	},
-	"6":{
-	"Manish":"chilling",
-	"Prashant":"cooking",
-	"Alish":"dishwashing",
-	"Bishwa":"chilling"
-	},
-	"7":{
-	"Manish":"dishwashing",
-	"Prashant":"chilling",
-	"Alish":"chilling",
-	"Bishwa":"dishwashing"
-	}
-	
+"Manish"{
+"Sunday":"chilling",
+"Monday":"chilling",
+"Tuesday":"dishwashing",
+"Wednesday":"chilling",
+"Thursday":"cooking",
+"Friday":"chilling",
+"Saturday":"dishwashing"
+},
+"Prashant"{
+"Sunday":"dishwashing",
+"Monday":"cooking",
+"Tuesday":"chilling",
+"Wednesday":"dishwashing",
+"Thursday":"chilling",
+"Friday":"cooking",
+"Saturday":"chilling"
+},
+"Alish"{
+"Sunday":"cooking",
+"Monday":"dishwashing",
+"Tuesday":"chilling",
+"Wednesday":"cooking",
+"Thursday":"chilling",
+"Friday":"dishwashing",
+"Saturday":"chilling"
+},
+"Bishwa"{
+"Sunday":"chilling",
+"Monday":"chilling",
+"Tuesday":"cooking",
+"Wednesday":"chilling",
+"Thursday":"dishwashing",
+"Friday":"chilling",
+"Saturday":"cooking"
+}
+
+
 }
