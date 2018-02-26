@@ -93,19 +93,47 @@ $(function () {
 				"color": "#EDEDED"
 			},
 			{
-				"name": "Waffle House Inc",
-				"path": "M58,-715L81,-715,81,-699,58,-699,58,-715",
-				"color": "#e9c225"
-			},
+            name: "Waffle House Inc",
+            value: 1,
+            path: "M58,-715L81,-715,81,-699,58,-699,58,-715",
+            color: "#e9c225",
+            dataLabels: {
+              enabled: true,
+              format: '{point.value}',
+              style :{
+                fontSize: '8px',
+                color: '#000'
+              }
+            }
+          },
 			{
 				"name": "Foresters Financial",
 				"path": "M87,-715L110,-715,110,-698,87,-698,87,-715",
-				"color": "#e9c225"
+				"color": "#e9c225",
+                value: 2,
+                 dataLabels: {
+              enabled: true,
+              format: '{point.value}',
+              style :{
+                fontSize: '8px',
+                color: '#000'
+              }
+            }
 			},
 			{
 				"name": "Smitty's Supply, Inc",
 				"path": "M117,-714L140,-714,140,-698,117,-698,117,-714",
-				"color": "#e9c225"
+				"color": "#e9c225",
+                value: 3,
+                  dataLabels: {
+              enabled: true,
+              format: '{point.value}',
+              style :{
+                fontSize: '8px',
+                color: '#000'
+              }
+            }
+                
 			},
 			{
 				"name": "Brooke Companies",
@@ -705,3 +733,4 @@ dataLabels: {
 
 </body>
 </html>
+
