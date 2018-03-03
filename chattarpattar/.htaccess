@@ -1,0 +1,5 @@
+.htaccess FILE: 
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\.manishpaudel\.me$ [NC]
+RewriteRule ^(.*)$ https://www.manishpaudel.me/$1 [L,R=301]
