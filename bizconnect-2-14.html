@@ -8,10 +8,7 @@
 $(function () {
     // Initiate the chart
     $('#container').highcharts('Map', {
-      chart: {
-            width: 100%,
-            height: 100%
-        },
+     
       
        title: {
         text: 'Map of Bizconnect 2018'
@@ -19,7 +16,11 @@ $(function () {
       subtitle: {
     text: 'Garett Hall Map'
 },
-      
+       chart: {
+            width: 100%,
+            height: 100%
+        },
+	    
         series: [
 	{
 		"type": "map",
